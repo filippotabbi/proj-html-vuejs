@@ -1,0 +1,45 @@
+
+.bg-fff{
+  background-color: #FFF;
+}
+.bg-violet{
+  background-color: purple;
+}
+.bg-darkgrey{
+  background-color: grey;
+}
+.bg-blue{
+  background-color: blue;
+}
+h3{
+  margin: 0;
+  padding: 30px 0;
+}
+.inline-block{
+  display: inline-block;
+}
+.flex-end{
+  display: flex;
+  justify-content: flex-end;
+}
+li{
+  cursor: pointer;
+}
+.p-rel{
+  position: relative;
+}
+.absolute-right{
+  position: absolute;
+  right: 50px;
+  top: 35px;
+}
+.p-left-5{
+  padding-left: 5px;
+}
+.container-fluid{
+  padding: 0;
+}
+
+.bold{
+  font-weight: 700;
+}
