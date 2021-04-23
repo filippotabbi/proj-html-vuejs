@@ -9,6 +9,12 @@
 .p-left-5 li{
   padding-left: 35px;
   margin-bottom: 35px;
+
+}
+.p-left-5 li:hover{
+  transform: scale(1.2);
+  text-decoration: underline;
+  color: #d84d52;
 }
 .bg-jumbo{
   margin-top: -35px;
@@ -20,14 +26,30 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.title{
+  width: 80%;
+  margin: 0 auto;
+}
 h1{
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 400;
-  margin-top: 100px;
+  font-family: now;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 500;
+  margin-top: 200px;
+  transform: scale(1.2);
+  padding: 0;
 }
 button{
+  margin-top: 30px;
   background-color: rgba( 000, 000 , 000 , 0.0);
   padding: 5px 25px;
   font-size: 18px;
   border: 1px solid grey;
+  font-family: 'Roboto', serif;;
+}
+button:hover{
+  background-color: #D75273;
+  color: #FFF;
+  border: 1px solid grey;
+  transform: scale(1.2);
 }
