@@ -48,8 +48,13 @@ button{
   font-family: 'Roboto', serif;;
 }
 button:hover{
-  background-color: #D75273;
+  background-color: $primarycolor;
   color: #FFF;
   border: 1px solid grey;
   transform: scale(1.2);
+}
+.features{
+  height: 200px;
+  background-color: #FFF;
+  display: block;
 }
